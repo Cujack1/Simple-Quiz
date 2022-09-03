@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz Time!!</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">TRIVIA</h1>
+    </header>
+
+    <section class="quiz-body">
+      <section class="quiz-body__questions">
+        <p id="question"></p>
+      </section>
+      <section class="quiz-body__answers">
+        <ul id="answers">
+          <li class="l1"></li>
+          <li class="l2"></li>
+          <li class="l3"></li>
+          <li class="l4"></li>
+        </ul>
+      </section>
+      <div class="quiz-body__navigation">
+        <button class="quiz-body__previous" type="button">Previous</button>
+        <button class="quiz-body__next" type="button">Next</button>
+      </div>
+    </section>
+
+    <!-- Start Button that dissapears after starting the Quiz -->
+    <section class="start">
+        <button class="start-btn" type="button">Start!</button>
+    </section>
+
+    <!-- Pop-up Screen after completing the quiz that displays your grade -->
+    <div class="popup">
+        <section class="popup__message">
+            <h2>Good Job! You finished!<h2>
+            <h3>Here's your results</h3>
+        </section>
+        <section class="popup__results">
+            <p id="quiz-results"></p>
+        </section>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>

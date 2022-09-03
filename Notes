@@ -1,0 +1,10 @@
+1. Stop the Next and Previous buttons from moving around when transitions happen to the answers. 
+2. Add pointers to all buttons.
+
+giving classses to each list item 
+make list items visible after clicking start
+defining each list item as a string of JS variables, object, array properties
+(gives flexibility to randomization)
+simply change the chosenQuestion variable and then everything else falls into place
+
+Make sure to delete previous entries before adding the new one

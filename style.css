@@ -1,0 +1,59 @@
+::selection {
+    background: rgb(255, 255, 142);
+}
+
+/* HTML body classes */
+.quiz-body__answers {
+    width: 300px;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+}
+
+#answers li {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px 40px 20px;
+    list-style: none;
+}
+
+
+/* Add-on classes through the JS */
+.popup {
+    visibility: hidden;
+}
+
+.clickable {
+    cursor: pointer;
+    transition: font-size 0.5s, background 0.5s;
+}
+
+.clickable:hover {
+    font-size: 175%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.correct {
+    font-size: 175%;
+    background: rgba(39, 224, 39, 0.7);
+}
+
+.incorrect {
+    font-size: 175%;
+    background: rgba(196, 0, 0, 0.7);
+}
+
+
+
+/* Animations */
+.fade-away {
+    animation: 0.8s fade forwards;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 0;
+    }
+}
